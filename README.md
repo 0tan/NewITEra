@@ -1,89 +1,112 @@
-# Solid - Free Next.js Web Template and Starter Kit for SaaS
+![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
 
-Solid is a free Next.js template specifically crafted for startups, SaaS, and software websites. It provides an extensive array of necessary sections, elements, and pages required to build a fully-equipped website for any SaaS, software, or startup site. Comes with all cutting edge React and Next.js features - **Built with Next.js 13, React 18 and TypeScript.**
+![Landy React Template License](https://img.shields.io/github/license/Adrinlol/landy-react-template)
+![Landy React Template Release Date](https://img.shields.io/github/release-date/Adrinlol/landy-react-template)
+![Landy React TemplateStars](https://img.shields.io/github/stars/Adrinlol/landy-react-template)
+![Landy React Template Language](https://img.shields.io/github/languages/top/Adrinlol/landy-react-template)
+![Landy React Template TypeScript](https://badgen.net/npm/types/tslib)
 
-This Next.js template's homepage comes with an awesome hero area, logos of associated brands, a features section, an about section, another features section with tabs, counters, and star ratings, integration options, clear call-to-actions, an FAQ section with accordions, a testimonials section, pricing tables, a contact page, a blog, and a distinctive footer.
+## Free React landing page template
 
-**Solid Next.js template packed with all necessary external pages** - such as login, registration, blog grids, and single blog pages, among others. This broad collection of pages provides all the necessary tools to create a feature-packed, comprehensive, and visually appealing website or landing page for software, a web application, or SaaS.
+[Landy][Landy] is an open-source React landing page template written in TypeScript, designed for developers and startups, who want to create a quick and professional landing page for their business or project.
 
-### [🔥 Get Solid Pro - Next.js SaaS Boilerplate and Starter Kit](https://nextjstemplates.com/templates/solid)
+This React template comes with multi-lingual support, smooth animations, set of ready to use sections and most importantly, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in React.js.
 
-![Startup Pro](https://uideck.com/wp-content/uploads/edd/2023/07/solid-saas.png)
+## Table of contents
 
-### [🚀 Solid PRO Live Demo](https://solid.nextjstemplates.com/)
+- [Features](#features)
+- [Google Lighthouse](#google-lighthouse)
+  - [Performance](#performance)
+  - [Accessibility](#accessibility)
+  - [Best Practices](#best-practices)
+  - [SEO](#seo)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Special Thanks](#special-thanks)
+- [Usage](#usage)
+- [License](#license)
 
-### [🚀 Solid FREE Live Demo](https://solid-free.nextjstemplates.com/)
+## Features
 
-### TailAdmin React PRO vs TailAdmin React FREE Comparison 📊
+Your project will have everything you need to build a modern single-page React app:
 
-#### [Solid PRO](https://solid.nextjstemplates.com/)
-- SaaS Boilerplate + Starter Kit with Essential Integrations and Functionalities
-- Essential Integrations: Auth, DB, Stripe, MDX and More ...
-- Fully Functional, Ready to Use Sanity Blog Support
-- Premium Email Support
-- Functional External Pages
-- Free Lifetime Future Updates
-___
-#### [Solid FREE](https://solid-free.nextjstemplates.com/)
-- Only UI - Coded for Next.js
-- No Integrations
-- No Functional Blogging System
-- External Pages without Functions/Integrations
-- Community Support
-- Free Lifetime Future Updates
-___
+- 🎁 **Modern** – Template created using the latest features of React (State management using Hooks, Code-Splitting to reduce the bundle size)
 
-### [📦 Download](https://nextjstemplates.com/templates/solid)
+- 💻 **Responsive** – Highly responsive and reusable UI components, that change depending on the provided props
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/solid)
+- 🚀 **Fast** – Buttery smooth experience thanks to the implementation of best practices and no third party dependencies, resulting in <b>PERFECT</b> Google Lighthouse scores
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+- 🏷 **TypeScript support** – Landy is written in TypeScript to improve the DX
 
-### ⚡ Deploy Now
+- 🌍 **Internationalization** - Prebuilt standalone file that works in every environment and doesn't require reloading the page to translate the content
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fsolid-nextjs)
+- 🛸 **Routing** - Each file inside the src/pages directory will generate its own route, so you don't have to manually handle the routing
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/solid-nextjs)
+- 🤙 **Contact Form** - Contact form written in React Hooks, with uncontrolled form validation to reduce unnecessary performance penalty. You just need to provide the endpoint
 
+- ⚙️ **Maintenance** - All of the content is stored in the JSON files, so that you can easily manage the content of the website
 
-## Installation
+## Google Lighthouse
 
-Here are the steps you need to follow to install the dependencies.
+![1](https://user-images.githubusercontent.com/48876996/121569366-c313e000-ca31-11eb-940c-187f556ff0d6.png)
 
-1.Download and extract the template from **Next.js Templates.**
+[Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
 
-2.**cd** into the template directory then run this command to install all the dependencies
-    
-```bash
-    npm install
-```
-    
-or
-    
-```bash
-    yarn install
- ```
+### Performance
 
+Audits for metrics like first paint and time to interactive to determine lag.
 
-You can start the project on the local server
-    
-```bash
-    npm run dev
- ```
+### Accessibility
 
-It’ll start the template on [localhost:3000](http://localhost:3000). 
+Checks for common issues that may prevent users from accessing your content.
 
-The documentation includes all the guides you need for the integrations. 
+### Best Practices
+
+Looks for everything from HTTPS usage to correct image aspect ratios.
+
+### SEO 
+
+Checks for best practices to ensure your site is discoverable.
 
 
-### Deploying on PaaS
+## Demo
 
-If you are using a GitHub repo then you can go with free-of-cost and easy-to-use options like [Vercel](https://vercel.com/), or [Netlify](https://netlify.com/) they offer decent-free tiers for Next.js hosting.
+Check the live demo here 👉️ https://landy-web.netlify.app/
 
-### 📄 License
-Solid Free is 100% free and open-source, feel free to use with your personal and commercial projects.
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+### Installation
 
-### ✨ Browse and Download - Best Free [Next.js Templates](https://nextjstemplates.com/templates)
+You’ll need to have Node 10.16.0 or later version on your local development machine (but it’s not required on the server). I recommend using the latest LTS version.
+
+To create a new app, you have to:
+
+Begin by cloning this repository to establish your own local copy. This process is straightforward and ensures you have all the necessary files and resources at your fingertips. You can find step-by-step instructions in this helpful article: Cloning a [repository on GitHub.com](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
+
+## What's included
+
+- [antd][antd] - React UI library that contains a set of high quality components.
+- [react-awesome-reveal][react-awesome-reveal] - High performance library that adds reveal animations using the Intersection Observer API.
+- [styled-componets][styled-componets] - Variant on “CSS-in-JS”—which solves many of the problems with traditional CSS.
+- [i18next][i18next] - Internationalization-framework written in and for JavaScript.
+
+## Special thanks
+
+[whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
+
+## Usage
+
+Use it for whatever you want, and be sure to reach out to me on [Twitter](https://twitter.com/Adrinlolx) if you have any questions, or build something cool with it.
+
+## License
+
+Licensed under the MIT license.
+
+<!-- prettier-ignore-start -->
+[antd]: https://github.com/ant-design/ant-design
+[react-awesome-reveal]: https://www.npmjs.com/package/react-awesome-reveal
+[styled-componets]: https://github.com/styled-components/styled-components
+[i18next]: https://github.com/i18next/i18next
+[whoooa]: https://www.whoooa.rocks/
+[Landy]: https://www.npmjs.com/package/cra-template-adrinlol
+[Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
+<!-- prettier-ignore-end -->
